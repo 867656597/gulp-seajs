@@ -1,0 +1,176 @@
+// .form-inline .form-group,.layui-inline{
+// 	display: block!important;
+// }
+// *:before, *:after,*{
+// 	box-sizing: inherit!important;
+// }
+
+
+//二次重写metronic的样式
+body{
+	// min-width: 1200px;
+	overflow: auto;
+	color: #333;
+	padding: 0!important;
+	margin: 0!important;
+	font-size: 14px;
+}
+body,h1,h2,h3,h4,h5{
+	font-family:'Arial','Microsoft Yahei', 微软雅黑, arial, 'Hiragino Sans GB', 宋体, Tahoma, Arial, Helvetica, STHeiti;
+	padding: 0;
+	margin: 0;
+}
+a{
+	&:hover{
+		cursor: pointer;
+	}
+}
+.form-control{
+	height: 34px;
+	padding: 6px 12px;
+}
+.btn{
+	padding: 6px 12px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+	vertical-align: middle;
+}
+
+//头部样式
+.page-header.navbar{
+	background-color: #0078AD;
+}
+.page-header.navbar .menu-toggler.sidebar-toggler{
+	margin-top: 12.5px;
+}
+.top-menu .dropdown-toggle{
+	color: #fff;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle{
+	padding: 0 13px 0 5px!important;
+	border-right: 1px solid #fff;
+	display: inline-block;
+	line-height: 20px;
+	height: 20px;
+	margin: 15px 0 !important;
+}
+.top-menu .open .dropdown-toggle{
+	background-color: #0078AD !important;
+	color: #fff;
+}
+.page-header.navbar .menu-toggler>span, .page-header.navbar .menu-toggler>span:after, .page-header.navbar .menu-toggler>span:before, .page-header.navbar .menu-toggler>span:hover, .page-header.navbar .menu-toggler>span:hover:after, .page-header.navbar .menu-toggler>span:hover:before{
+	background: #fff;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle{
+	background-color: #0078AD !important;
+}
+
+//侧边栏样式
+.page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a{
+	background-color: #0078AD !important;
+	color: #fff;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar .page-sidebar-menu .sub-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a{
+	background-color: #0078AD !important;
+	color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a:hover, .page-sidebar .page-sidebar-menu>li.active>a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a:hover{
+	background-color: #0078AD !important;
+	color: #fff;
+}
+//底部
+.page-footer .page-footer-inner{
+	padding: 10px 0;
+	float: none;
+	text-align: center;
+	display: block;
+}
+
+
+//表格
+.table-scrollable>.table{
+	width: 100% !important;
+	margin: 0!important;
+	background: #fff;
+	border:0;
+}
+.table-scrollable{
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border: 1px solid #e7ecf1;
+	margin: 10px 0!important;
+}
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>td{
+	border-bottom-width:1px;
+}
+.table-scrollable>.table-bordered>tbody>tr>td:first-child, .table-scrollable>.table-bordered>tbody>tr>th:first-child, .table-scrollable>.table-bordered>tfoot>tr>td:first-child, .table-scrollable>.table-bordered>tfoot>tr>th:first-child, .table-scrollable>.table-bordered>thead>tr>td:first-child, .table-scrollable>.table-bordered>thead>tr>th:first-child{
+	border-left:0;
+}
+.table td, .table th{
+	font-size: 14px;
+}
+
+
+//按钮
+
+.table .btn{
+	margin: 0 6px;
+}
+// .btn:hover, .btn:focus, .btn.focus{
+// 	color:#fff;
+// }
+.green,.blue,.red,.red-sunglo{
+	&:hover,&:focus,&.focus{
+		color: #fff;
+	}
+}
+.green{
+	color: #fff;
+	background-color:#43ac6a;
+	border-color: #3c9a5f;
+	&:hover{
+		color: #fff;
+		background-color: #358753;
+		border-color:#2b6e44;
+	}
+}
+.btn-gray{
+	color: #333;
+	background-color: #d0d0d0;
+}
+.blue{
+	color: #fff;
+	background-color:#3598dc;
+	border-color: #3598dc;
+	&:hover{
+		color: #fff;
+		background-color: #217ebd;
+		border-color:#1f78b5;
+	}
+}
+.red,.red-sunglo{
+	color: #fff;
+	background-color:#E26A6A;
+	border-color: #E26A6A;
+	&:hover{
+		color: #fff;
+		background-color: #da3f3f;
+		border-color:#d83737;
+	}
+}
+
+//表单
+.form-inline{
+	.form-group{
+		margin: 0 6px;
+	}
+}
+
+.modal-dialog{
+	margin: 80px auto !important;
+}
+
+.form-group label{
+	margin-right: 8px;
+}

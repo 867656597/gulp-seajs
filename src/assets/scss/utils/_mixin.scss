@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+//flex居中
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//字体溢出
+@mixin t-overflow($line:1){
+  @if $line==1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }@else{
+    display: -webkit-box;
+    -webkit-line-clamp:$line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

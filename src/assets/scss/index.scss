@@ -1,0 +1,30 @@
+/*
+* @description: 金华银行积分管理系统scss源文件
+* @author: 俊杰.yang
+* @update: 俊杰.yang (2017-06-15)
+*/        
+//重置metronic的样式
+@import "base/reast-metronic";//重置metronic样式
+@import "base/common"; //通用样式
+/* utils模块 */
+@import "utils/function";
+
+//函数
+@import "utils/mixin";      //mixin
+@import "utils/variable";   //变量
+@import "utils/placeholder";//基类
+
+// 组件页面
+@import "components/msgbox"; //弹窗样式
+@import "components/search_box"; //搜索框样式
+
+/* 页面模块 */
+@import 'page/public';   //公共样式
+@import 'page/login';    //登录页面
+@import 'page/index';    //主页
+
+
+.importanTitle{
+	color: red;
+	margin-right: 5px;
+}

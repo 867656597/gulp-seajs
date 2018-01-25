@@ -1,0 +1,14 @@
+include config
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title #{pub_title}
+	block CSS
+body
+	block content
+	<script src="https://cdn.bootcss.com/seajs/3.0.1/sea.js"></script>
+	<script src="js/common.js"></script>
+	<!-- build:js -->
+	<!-- endbuild -->
+	block JS

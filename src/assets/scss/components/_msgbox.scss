@@ -1,0 +1,286 @@
+//通用弹窗
+.msgbox_public{
+	#changePwd{
+		.modal-dialog{
+			width: 320px !important;
+		}
+	}
+}
+.modal{
+	input{
+		width: 200px !important;
+	}
+	select{
+		width: 200px !important;
+	}
+}
+
+
+//商品管理弹出框
+.commodity{
+	.modal-dialog{
+		width: 370px !important;
+		label{
+			width: 102px;
+			text-align: right;
+			margin-right: 8px;
+		}
+		input{
+			width: 200px;
+		}
+	}
+}
+
+//账户查询弹窗
+.account{
+	.modal-sm{
+		width: 400px;
+	}
+}
+//短信兑换
+.messageExchange{
+	#giftBox{
+		.modal-dialog{
+			width: 900px !important;
+		}
+	}
+	#giftCountBox{
+		.modal-dialog{
+			width: 340px !important;
+		}
+	}
+	#changeGiftBox{
+		.modal-dialog{
+			width: 330px !important;
+		}
+	}
+	#changeMsgBox{
+		input,textarea{
+			width: 300px !important;
+		}
+		textarea{
+			resize: none;
+			height: 130px;
+		}
+		.modal-dialog{
+			width: 420px !important;;
+		}
+	}
+}
+//
+.integral_mall,.adjustmentRequest,.integralCharge{
+	#imgDetail{
+		.img_box,.fileimgbox{
+			position: relative;
+			display: block;
+			float: left;
+			cursor: pointer;
+			.iconfont{
+				opacity: 0;
+				right: 0;
+				top: 0;
+				height: 16px;
+				line-height: 16px;
+				position: absolute;
+				background: rgba(0,0,0,.7);
+				border-radius: 50%;
+				width: 25px;
+				height: 25px;
+				text-align: center;
+				line-height: 25px;
+				color: #fff;
+				font-size: 20px;
+				transition: all .5s ease-out;
+			}
+			&:hover .iconfont{
+				opacity: 1;	
+				display: block;
+			}
+		}
+		h5{
+			margin: 12px 0;
+			font-size: 14px;
+			&+div{
+				margin-left: 65px;
+			}
+		}
+		img{
+			margin: 0px 10px 0px;
+		}
+		textarea{
+			resize: none;	
+			width: 383px !important;
+		}
+		.input_box{
+			input{
+				width: 383px !important;
+				margin-bottom: 6px;
+				text-align: center;
+			}
+		}
+		.modal-dialog{
+			width: 500px !important;
+		}
+	}
+	.modal-dialog{
+		
+			width: 366px!important;
+
+		label{
+			width: 75px;
+			text-align: right;
+			margin-right: 8px;
+		}
+		input{
+			width: 200px;
+		}
+	}
+}
+//游戏设置
+.lotteryGame{
+	#addGame,#addGift{
+		.modal-dialog{
+			width: 350px !important;
+		}
+		label{
+			width: 85px;
+			text-align: right;
+			margin-right: 8px;
+		}
+		input{
+			width: 200px;
+		}
+	}
+	#giftInfo{
+		.modal-dialog{
+			width: 900px !important;;
+		}
+	}
+}
+
+
+//积分调整-批量调整
+#batchAdjustBox{
+	textarea{
+		height: 90px;
+		resize: none;
+	}
+	.modal-dialog{
+		width: 315px !important;;
+	}
+	#file{
+		display: none;
+	}
+}
+
+
+//批量任务
+.batchTask{
+	#batchTaskBox{
+		.box{
+			.btn{
+				margin: 0 10px;
+			}
+		}
+	}
+}
+//积分抵扣
+.integralDeduction{
+	#createIntegral{
+			.modal-dialog{
+				width: 510px !important;;
+			}
+			select{
+				width: 100px !important;
+			}
+			.symbol{
+				color: red;
+				margin-left: 10px;
+			}
+		}
+}
+//失效积分预通知
+.failureNotification{
+	.modal-dialog{
+				width: 350px !important;;
+			}
+}
+
+.accountMerge{
+	#changeMerge{
+		.modal-dialog{
+				width: 310px !important;;
+			}
+	}
+}
+
+//积分规则
+.integralRule{
+	#addRule{
+		label{
+			margin-right: 10px;
+		}
+		.form-inline{
+			margin-bottom: 15px;
+		}
+		input,select{
+			width: 140px !important;
+		}
+		.modal-dialog{
+				width: 785px !important;
+			}
+	}
+	#addAttr{
+		label{
+			margin-right: 10px;
+		}
+		z-index: 10051;
+		.modal-dialog{
+				width: 725px !important;
+			}
+	}
+	#RuleAttrBox{
+		.modal-dialog{
+				width: 1130px !important;
+			}
+		.topBox{
+			.form-group{
+				margin-right: 10px;
+			}
+			input{
+				width: 170px !important;
+			}
+		}
+	}
+}
+//调整审核
+#auditRejectBox{
+	.modal-dialog{
+		width: 308px !important;
+	}
+	label{
+		vertical-align: top;
+		margin-right: 6px;
+		padding-top: 1px;
+	}
+	textarea{
+		resize: none;
+		width: 200px;
+		height: 80px;
+	}
+}
+.integralCharge{
+	#addCommodityBox{
+		.modal-dialog{
+		width: 340px !important;
+	}
+	}
+}
+//账户管理
+.systemSettings{
+	#addUser{
+		.modal-dialog{
+			width: 315px !important;
+		}
+	}
+}
